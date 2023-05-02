@@ -1,0 +1,30 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  width: 100%;
+  padding: 40px;
+  padding-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    padding: 10px;
+    padding-left: 30px;
+  }
+}
+.large-image {
+  width: 96%;
+}
+
+.thumbnail-container {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}
+
+.thumbnail-opacity {
+  width: 70px;
+  height: 70px;
+  opacity: 0.5;
+}
